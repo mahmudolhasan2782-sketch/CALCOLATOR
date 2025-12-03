@@ -1,0 +1,5 @@
+{
+  "name": "React Scientific Calculator",
+  "description": "A fully functional scientific calculator with a modern UI, built with React, TypeScript, and Tailwind CSS. Features trigonometric functions, logarithms, and history management.",
+  "requestFramePermissions": []
+}
