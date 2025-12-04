@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Calculator from './components/Calculator';
 
 const App: React.FC = () => {
+  // Update document title on mount
+  useEffect(() => {
+    document.title = "Hemontu Inco. | Scientific Calculator";
+  }, []);
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4 font-sans">
       {/* Branding Section */}
@@ -39,6 +44,7 @@ const App: React.FC = () => {
         <p className="text-gray-500 text-sm font-semibold tracking-wide hover:text-indigo-600 transition-colors duration-300">
           @HEMONTU INCORPORATION এর একটি সার্ভিস
         </p>
+        <p className="text-xs text-gray-400 mt-2">v2.0.1 - Redesigned for Professional Use</p>
       </footer>
     </div>
   );

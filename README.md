@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Modern Scientific Calculator by Hemontu Inco.
 
-# Run and deploy your AI Studio app
+A fully functional, multicolor, and dynamic scientific calculator built with React, TypeScript, and Tailwind CSS.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1nSeGfEU5orx3XpJZByHLzRbrVfvffqT_
+- **Dual Modes:** Scientific & Programmer
+- **Scientific Functions:** Trigonometry (sin, cos, tan), Logarithms, Exponents, Roots
+- **Programmer Functions:** HEX/DEC/OCT/BIN conversion, Logic Gates (AND, OR, XOR, NOT)
+- **Memory Functions:** M+, M-, MR, MC
+- **Dynamic UI:** Multicolor buttons and responsive design
+- **No External APIs:** 100% Client-side execution
 
-## Run Locally
+## Deployment
 
-**Prerequisites:**  Node.js
+This project is optimized for deployment on Vercel.
 
+1. Push to GitHub.
+2. Import project in Vercel.
+3. Framework Preset: **Vite**
+4. Deploy!
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+Developed by **Hemontu Incorporation**

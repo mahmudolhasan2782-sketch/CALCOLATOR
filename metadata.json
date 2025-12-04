@@ -1,5 +1,6 @@
 {
-  "name": "React Scientific Calculator",
-  "description": "A fully functional scientific calculator with a modern UI, built with React, TypeScript, and Tailwind CSS. Features trigonometric functions, logarithms, and history management.",
+  "name": "Hemontu Inco. Calculator",
+  "description": "Professional Scientific & Programmer Calculator by Hemontu Incorporation",
+  "version": "2.0.1",
   "requestFramePermissions": []
 }

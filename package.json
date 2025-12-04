@@ -1,5 +1,5 @@
 {
-  "name": "react-scientific-calculator",
+  "name": "hemontu-inco.-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "vite": "^7.2.6",
+    "@vitejs/plugin-react": "^5.1.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
